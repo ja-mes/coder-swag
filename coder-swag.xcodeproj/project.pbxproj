@@ -15,6 +15,7 @@
 		9B9A113E22B976A100F1EF41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A113C22B976A100F1EF41 /* LaunchScreen.storyboard */; };
 		9B9A114922B976A100F1EF41 /* coder_swagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A114822B976A100F1EF41 /* coder_swagTests.swift */; };
 		9B9A115422B976A200F1EF41 /* coder_swagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A115322B976A200F1EF41 /* coder_swagUITests.swift */; };
+		9B9A116522B97BFC00F1EF41 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A116422B97BFC00F1EF41 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9B9A114F22B976A100F1EF41 /* coder-swagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coder-swagUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9A115322B976A200F1EF41 /* coder_swagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coder_swagUITests.swift; sourceTree = "<group>"; };
 		9B9A115522B976A200F1EF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9A116422B97BFC00F1EF41 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,9 @@
 		9B9A112F22B976A100F1EF41 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				9B9A116322B97B9500F1EF41 /* Controller */,
+				9B9A116222B97B9200F1EF41 /* View */,
+				9B9A116122B97B8900F1EF41 /* Model */,
 				9B9A113022B976A100F1EF41 /* AppDelegate.swift */,
 				9B9A113222B976A100F1EF41 /* CategoriesVC.swift */,
 				9B9A113422B976A100F1EF41 /* Main.storyboard */,
@@ -126,6 +131,28 @@
 				9B9A115522B976A200F1EF41 /* Info.plist */,
 			);
 			path = "coder-swagUITests";
+			sourceTree = "<group>";
+		};
+		9B9A116122B97B8900F1EF41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B9A116222B97B9200F1EF41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A116422B97BFC00F1EF41 /* CategoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B9A116322B97B9500F1EF41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +289,7 @@
 				9B9A113322B976A100F1EF41 /* CategoriesVC.swift in Sources */,
 				9B9A113922B976A100F1EF41 /* coder_swag.xcdatamodeld in Sources */,
 				9B9A113122B976A100F1EF41 /* AppDelegate.swift in Sources */,
+				9B9A116522B97BFC00F1EF41 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
