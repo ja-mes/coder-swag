@@ -28,22 +28,34 @@
                                 <rect key="frame" x="0.0" y="70" width="414" height="738"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="121" id="ye9-sb-lR9">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="121"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="144" id="ye9-sb-lR9">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="144"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ye9-sb-lR9" id="l0G-c9-QkC">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="120.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="143.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mlD-n1-J7k">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="120.5"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="mlD-n1-J7k">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="143.5"/>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZC3-UR-rQW">
+                                                    <rect key="frame" x="144" y="58" width="126" height="28"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="126" id="Oyv-W0-eEg"/>
+                                                        <constraint firstAttribute="height" constant="28" id="aQH-Yh-pdK"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="mlD-n1-J7k" firstAttribute="top" secondItem="l0G-c9-QkC" secondAttribute="top" id="5cs-3P-hcN"/>
                                                 <constraint firstAttribute="trailing" secondItem="mlD-n1-J7k" secondAttribute="trailing" id="Esa-wv-kTN"/>
                                                 <constraint firstAttribute="bottom" secondItem="mlD-n1-J7k" secondAttribute="bottom" id="Exs-xu-rtf"/>
+                                                <constraint firstItem="ZC3-UR-rQW" firstAttribute="centerY" secondItem="l0G-c9-QkC" secondAttribute="centerY" id="HIV-iw-qaJ"/>
                                                 <constraint firstItem="mlD-n1-J7k" firstAttribute="leading" secondItem="l0G-c9-QkC" secondAttribute="leading" id="gbd-3m-Z64"/>
+                                                <constraint firstItem="ZC3-UR-rQW" firstAttribute="centerX" secondItem="l0G-c9-QkC" secondAttribute="centerX" id="l45-hc-xiu"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -90,4 +102,7 @@
             <point key="canvasLocation" x="178" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="digital" width="1024" height="703"/>
+    </resources>
 </document>
